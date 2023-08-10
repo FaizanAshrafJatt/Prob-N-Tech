@@ -1,0 +1,80 @@
+.light{
+  color: rgba(49, 48, 48, 0.712)
+}
+.white{
+  color: white;
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+.font-light{
+  font-family: 'Montserrat', sans-serif;
+  color: rgba(255, 255, 255, 0.411);
+}
+
+@media screen  and (max-width:1200px){
+  .service-section {
+    height: 650px;
+
+}
+#hero {
+  height: 74vh;
+  }
+}
+
+@media screen  and (min-width:300px){
+  .our-philosiphy p {
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    width: 93%;
+  }
+
+}
+@media screen  and (max-width:992px){
+
+  #hero {
+    height: 69vh;
+    }
+}
+
+
+@media screen and (max-width:768px) {
+  #hero {
+    height: 64vh;
+    }
+  .service-section {
+    height: 875px;
+
+}
+.clients img {
+  max-width: 90% !important;
+}
+.our-philosiphy p {
+  font-family: 'Roboto Slab', serif;
+  font-size: 24px;
+  width: 93%;
+}
+}
+@media screen  and (max-width:510px){
+  .our-philosiphy p {
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    width: 93%;
+  }
+  #hero {
+  height: 54vh;
+  }
+  #hero h1 {
+    font-size: 23px;
+    line-height: 33px;
+  }
+  #hero h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+  .service-section {
+    height: 1265px;
+
+}
+
+
+}
